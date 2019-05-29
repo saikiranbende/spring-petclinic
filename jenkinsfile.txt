@@ -1,0 +1,12 @@
+node ('MVN_UBUNTU'){
+   stage ('SCM'){
+   git 'https://github.com/saikiranbende/spring-petclinic.git'
+   }
+    stage ('Build'){
+	  sh 'pwd'
+	  sh 'mvn package'
+	}
+	
+	}
+	
+
