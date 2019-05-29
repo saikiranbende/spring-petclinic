@@ -2,8 +2,6 @@ node ('MVN_UBUNTU'){
    stage ('SCM'){
    git 'https://github.com/saikiranbende/spring-petclinic.git'
    }
-    
-	}
 	
 	}
 	
